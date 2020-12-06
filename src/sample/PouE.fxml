@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PouE">
+   <children>
+      <HBox layoutX="90.0" layoutY="71.0" prefHeight="247.0" prefWidth="420.0">
+         <children>
+            <AnchorPane prefHeight="231.0" prefWidth="216.0">
+               <children>
+                  <ImageView fitHeight="249.0" fitWidth="216.0" layoutY="2.0" onMousePressed="#Pclick" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="https://image.freepik.com/free-vector/teacher-woman-illustration_1284-5764.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="258.0" prefWidth="204.0">
+               <children>
+                  <Button layoutX="76.0" layoutY="117.0" mnemonicParsing="false" text="Elève" />
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
