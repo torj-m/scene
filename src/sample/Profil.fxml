@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="395.0" prefWidth="584.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Profil">
+   <children>
+      <HBox prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="119.0" />
+            <Label text="Nom et Prenom" />
+            <AnchorPane prefHeight="60.0" prefWidth="130.0" />
+            <TextField prefHeight="26.0" prefWidth="177.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="10.0" prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="119.0" />
+            <Label text="Date de naissance" />
+            <AnchorPane prefHeight="60.0" prefWidth="118.0" />
+            <TextField prefHeight="26.0" prefWidth="177.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="70.0" prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="119.0" />
+            <Label text="téléphone" />
+            <AnchorPane prefHeight="60.0" prefWidth="158.0" />
+            <TextField prefHeight="26.0" prefWidth="182.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="130.0" prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="119.0" />
+            <Label text="Email" />
+            <AnchorPane prefHeight="60.0" prefWidth="185.0" />
+            <TextField prefHeight="26.0" prefWidth="181.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="190.0" prefHeight="60.0" prefWidth="600.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="119.0" />
+            <Label text="téléphone" />
+            <AnchorPane prefHeight="60.0" prefWidth="161.0" />
+            <TextField prefHeight="26.0" prefWidth="182.0" />
+         </children>
+      </HBox>
+      <HBox layoutX="10.0" layoutY="250.0" prefHeight="54.0" prefWidth="584.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="119.0" />
+            <Label text="Mot de passe" />
+            <AnchorPane prefHeight="54.0" prefWidth="142.0" />
+            <TextField prefHeight="26.0" prefWidth="177.0" />
+         </children>
+      </HBox>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+            <Button mnemonicParsing="false" onContextMenuRequested="#init" text="Réinitialiser" />
+          <Button mnemonicParsing="false" onMouseClicked="#sauve" text="Sauvegarder " />
+        </buttons>
+      </ButtonBar>
+   </children>
+</VBox>
