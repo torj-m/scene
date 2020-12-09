@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InterP">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InterP">
    <children>
       <VBox layoutX="250.0" layoutY="100.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -20,8 +23,14 @@
                         <Image url="http://www.enicarthage.rnu.tn/assets/images/logo.png" />
                      </image>
                   </ImageView>
-                  <AnchorPane prefHeight="39.0" prefWidth="338.0" />
-                <Button alignment="CENTER" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Pclick" opacity="0.78" prefHeight="26.0" style="-fx-background-color: #D4F1F4; -fx-border-width: 1;" text="Déconnexion" textFill="#05445e" />
+                  <AnchorPane prefHeight="39.0" prefWidth="502.0">
+                     <children>
+                      <Button alignment="CENTER" layoutX="339.0" layoutY="11.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onMouseClicked="#Pclick" opacity="0.78" prefHeight="26.0" style="-fx-background-color: #D4F1F4; -fx-border-width: 1;" text="Déconnexion" textFill="#05445e">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Button>
+                     </children></AnchorPane>
               </buttons>
             </ButtonBar>
             <BorderPane fx:id="bp" prefHeight="378.0" prefWidth="600.0">
@@ -40,5 +49,13 @@
             </BorderPane>
          </children>
       </VBox>
+      <Label contentDisplay="RIGHT" layoutX="578.0" layoutY="9.0" onMouseEntered="#bouttIn" onMouseExited="#bouttOut" onMousePressed="#bouttonExt" text="X" textFill="#ffa384" fx:id="x">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Label>
    </children>
 </AnchorPane>
