@@ -19,6 +19,7 @@ public class InterP {
     private BorderPane bp;
     private AnchorPane ap;
     public Label x;
+
     public void Pclick(MouseEvent mouseEvent) throws IOException {
         Parent login = FXMLLoader.load(getClass().getResource("sample.fxml"));
         Scene Slogin=new Scene(login);
