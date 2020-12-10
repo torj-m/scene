@@ -99,7 +99,7 @@
                         </HBox>
                         <AnchorPane prefHeight="49.0" prefWidth="347.0">
                            <children>
-                              <Button layoutX="190.0" layoutY="3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#click" onMousePressed="#click" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #D4F1F4; -fx-background-radius: 10;" text="Connexion">
+                              <Button layoutX="190.0" layoutY="3.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onMouseClicked="#click" prefHeight="30.0" prefWidth="94.0" style="-fx-background-color: #D4F1F4; -fx-background-radius: 10;" text="Connexion">
                                  <effect>
                                     <Glow />
                                  </effect>
